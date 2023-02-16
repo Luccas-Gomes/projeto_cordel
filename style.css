@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', 'cursive';
+    --fonte3: 'Sriracha', 'cursive';
+
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body, html {
+    min-height: 100vh;
+    background-color: darkgray;
+
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    height: 200px ;
+    padding-top: 100px;
+    
+   
+   
+}
+
+header > h1, p {
+    color: white;
+    text-align: center;
+    
+    
+}
+
+header > h1 {
+    font-family: var(--fonte2);
+    font-size: 5vw;   
+
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-family: var(--fonte1);
+    font-weight: bold;
+}
+
+ 
+a:hover { 
+    color: rgba(8, 8, 190, 0.603);   
+}
+
+section {
+    background-color: white;
+    line-height: 2em;
+    font-family: var(--fonte3);
+    font-size: 1.5em; 
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+   
+  
+ }
+    
+
+ section > p {
+    color: black;
+    padding-bottom: 2em;
+    text-align: left;
+    padding-left: 30px;
+
+ }
+
+section.normal {
+    background-color: white;
+    color: black;
+  
+}
+
+section.image  {
+    background-color: gray;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.51);
+    background-attachment: fixed;
+    
+}
+
+section.image > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.338);
+    padding: 5px;
+    padding-left: 30px;
+    color: white;
+    
+
+}
+
+section#img1 {
+    background-image: url('../imagens/rosa2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+section#img2 {
+    background-image: url('../imagens/papel.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+footer > p {
+    text-decoration: none;
+    color:white;
+    font-family: var(--fonte1);
+    padding: 10px;
+    font-weight: bold;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+   
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    
+}
+footer > a:hover {
+    color: rgba(8, 8, 190, 0.603);
+    
+
+}
+
