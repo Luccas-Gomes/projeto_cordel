@@ -102,14 +102,14 @@ section.image > p {
 }
 
 section#img1 {
-    background-image: url('../imagens/rosa2.jpg');
+    background-image: url('../projeto_cordel/imagens/rosa2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
 section#img2 {
-    background-image: url('../imagens/papel.jpg');
+    background-image: url('../projeto_cordel/imagens/papel.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
